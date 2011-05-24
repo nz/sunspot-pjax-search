@@ -14,6 +14,9 @@ gem 'uglifier'
 
 gem 'jquery-rails'
 
+# Index contents in Solr with Sunspot
+gem 'sunspot_rails'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
