@@ -1,0 +1,16 @@
+<h2>Search</h2>
+<%= form_tag '/search', :method => :get do %>
+  <%= search_field_tag 'q', params[:q] %>
+  <%= submit_tag 'Search' %>
+<% end %>
+
+<% if params[:q].present? %>
+
+  <% if @search.results.present? %>
+    <h2>Results</h2>
+    <%= render @search.results %>
+  <% else %>
+    <p>No results found for <q><%= params[:q] %></q>.</p>
+  <% end %>
+
+<% end %>

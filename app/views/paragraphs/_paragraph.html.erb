@@ -1,0 +1,14 @@
+<%= content_tag_for :article, paragraph do %>
+  <header>
+    <h1><%= paragraph.work.try(:title) %></h1>
+  </header>
+  <p class="prev">
+    <%= highlighted_lines paragraph.prev, params[:q] %>
+  </p>
+  <p>
+    <%= highlighted_lines paragraph, params[:q] %>
+  </p>
+  <p class="next">
+    <%= highlighted_lines paragraph.next, params[:q] %>
+  </p>
+<% end %>

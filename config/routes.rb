@@ -1,4 +1,8 @@
 SunspotPjaxSearch::Application.routes.draw do
+
+  root :to => 'search#index'
+  get 'search' => 'search#index'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
