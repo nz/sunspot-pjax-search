@@ -1,4 +1,15 @@
 <h2>Search</h2>
+
+<p>
+  Some fun ones:
+  <ul>
+    <li><%= link_to 'lark', '/search?q=lark' %></li>
+    <li><%= link_to 'saucy', '/search?q=saucy' %></li>
+    <li><%= link_to 'slings and arrows', '/search?q=slings+and+arrows' %></li>
+    <li><%= link_to 'naughty knave', '/search?q=naughty+knave' %></li>
+  </ul>
+</p>
+
 <%= form_tag '/search', :method => :get do %>
   <%= search_field_tag 'q', params[:q] %>
   <%= submit_tag 'Search' %>

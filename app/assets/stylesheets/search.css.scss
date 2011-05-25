@@ -3,3 +3,10 @@
   They will automatically be included in application.css.
   You can use Sass (SCSS) here: http://sass-lang.com/
 */
+
+article {
+  h1 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
