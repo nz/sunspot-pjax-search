@@ -66,7 +66,7 @@ if Paragraph.count == 0
   works = Rails.root.join('vendor/oss-textdb/Paragraphs.txt')
   CSV.read(works, csv_options).each do |row|
     puts "\t#{row[:workid]} #{row[:paragraphid]}..."
-    Paragraph.create!(
+    Paragraph.create(
       plain_text:     row[:plaintext],
       chapter:        Chapter.where(work_id: row[:workid], section: row[:section], chapter: row[:chapter]).first,
       character:      Character.where(char_id: row[:charid]).first,
