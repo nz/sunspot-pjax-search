@@ -123,7 +123,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-script
   jquery-rails
-  pg (= 0.10.1)
+  pg
   pjax-rails!
   rails (= 3.1.0.rc1)
   rake (= 0.8.7)

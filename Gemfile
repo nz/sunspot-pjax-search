@@ -6,6 +6,7 @@ gem 'rake', '0.8.7'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
+gem 'pg'
 gem 'sqlite3'
 
 # Asset template engines
@@ -36,5 +37,4 @@ end
 # Javascript engine on heroku
 group :production do
   gem 'therubyracer-heroku', '0.8.1.pre3'
-  gem 'pg', '0.10.1'
 end
