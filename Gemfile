@@ -13,7 +13,7 @@ gem 'coffee-script'
 gem 'uglifier'
 
 gem 'jquery-rails'
-gem 'pjax-rails'
+gem 'pjax-rails', :git => 'git://github.com/nz/pjax-rails.git', :branch => 'forms'
 
 # Index contents in Solr with Sunspot
 gem 'sunspot_rails'
