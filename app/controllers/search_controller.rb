@@ -6,7 +6,6 @@ class SearchController < ApplicationController
         keywords params[:q]
       end
     end
-    render :layout => false if pjax_request?
   end
   
 end

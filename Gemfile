@@ -13,6 +13,7 @@ gem 'coffee-script'
 gem 'uglifier'
 
 gem 'jquery-rails'
+gem 'pjax-rails'
 
 # Index contents in Solr with Sunspot
 gem 'sunspot_rails'
