@@ -5,5 +5,5 @@
 $('form').live 'submit', (event) ->
   event.preventDefault()
   $.pjax
-    container: '#main'
+    container: ['data-pjax-container']
     url: this.action + '?' + $(this).serialize()
