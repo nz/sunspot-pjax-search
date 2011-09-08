@@ -18,7 +18,8 @@ gem 'jquery-rails'
 gem 'pjax-rails', :git => 'git://github.com/nz/pjax-rails.git', :branch => 'forms'
 
 # Index contents in Solr with Sunspot
-gem 'sunspot_rails', '1.3.0.rc2'
+gem 'sunspot_rails', '1.3.0.rc3'
+gem 'sunspot_solr', '1.3.0.rc3', :group => 'development'
 
 # Use unicorn as the web server
 # gem 'unicorn'
