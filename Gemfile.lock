@@ -63,6 +63,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.16)
     multi_json (1.0.3)
+    mysql2 (0.3.7)
     nokogiri (1.5.0)
     options (2.3.0)
       fattr
@@ -133,6 +134,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-script
   jquery-rails
+  mysql2
   pg
   pjax-rails!
   rails (= 3.1.0)

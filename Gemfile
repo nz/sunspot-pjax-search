@@ -8,6 +8,7 @@ gem 'rake', '0.8.7'
 
 gem 'pg'
 gem 'sqlite3'
+gem 'mysql2'
 
 # Asset template engines
 gem 'sass'
