@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.0.rc1'
+gem 'rails', '3.1.0'
 gem 'rake', '0.8.7'
 
 # Bundle edge Rails instead:
@@ -36,6 +36,6 @@ group :test do
 end
 
 # Javascript engine on heroku
-group :production do
-  gem 'therubyracer-heroku', '0.8.1.pre3'
-end
+# group :production do
+#   gem 'therubyracer-heroku', '0.8.1.pre3'
+# end
